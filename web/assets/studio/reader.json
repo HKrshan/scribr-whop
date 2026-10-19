@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "image": "reader.png",
+  "cell": {
+    "width": 128,
+    "height": 128,
+    "columns": 4,
+    "rows": 4,
+    "margin": 0,
+    "gutter": 0,
+    "anchorX": 0.5,
+    "anchorY": 0.875
+  },
+  "clips": {
+    "idle": {
+      "frames": [
+        0,
+        1
+      ],
+      "fps": 1,
+      "loop": true,
+      "motion": true
+    },
+    "walk": {
+      "frames": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "fps": 6,
+      "loop": true,
+      "motion": true
+    },
+    "work": {
+      "frames": [
+        6,
+        7
+      ],
+      "fps": 2,
+      "loop": true,
+      "motion": true
+    },
+    "present": {
+      "frames": [
+        8,
+        9
+      ],
+      "fps": 1,
+      "loop": false,
+      "motion": true
+    },
+    "reaction": {
+      "frames": [
+        10,
+        11
+      ],
+      "fps": 2,
+      "loop": false,
+      "motion": true
+    },
+    "maker": {
+      "frames": [
+        13,
+        15,
+        13,
+        14
+      ],
+      "fps": 0.6,
+      "loop": true,
+      "motion": true
+    }
+  }
+}

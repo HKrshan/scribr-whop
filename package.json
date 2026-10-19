@@ -1,0 +1,22 @@
+{
+  "name": "scribr-whop",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "description": "Scribr Caption Studio standalone website for Whop AI import",
+  "engines": {"node": ">=24.0.0"},
+  "scripts": {
+    "build": "node scripts/build-web.js",
+    "preview": "node scripts/preview-web.js",
+    "start": "node scripts/preview-web.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "6.38.0",
+    "@clerk/ui": "1.39.0",
+    "gsap": "3.15.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {"esbuild": "0.28.2"}
+}
